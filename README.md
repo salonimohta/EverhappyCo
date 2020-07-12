@@ -1,3 +1,3 @@
-#EverhappyCo
+# EverhappyCo
 
-##A website in the making for everhappy commercial corporation
+## A website in the making for everhappy commercial corporation
