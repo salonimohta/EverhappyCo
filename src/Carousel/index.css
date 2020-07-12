@@ -1,0 +1,20 @@
+.carouselContainer{
+    margin-left: 200px;
+    margin-right: 200px;
+}
+
+.carousel .slide{ background: #e6f2ff; }
+
+.carousel .thumb img {
+    width: 100% !important;
+    height: 60px !important;
+}
+
+.carousel .slide img {
+    max-height: 300px;  /* change this to whatever you want */
+    width: auto;
+}
+
+.legend{
+    background:#e6f2ff ;
+}
