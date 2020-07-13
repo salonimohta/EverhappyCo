@@ -11,10 +11,6 @@
 }
 
 .carousel .slide img {
-    max-height: 300px;  /* change this to whatever you want */
+    max-height: 300px; 
     width: auto;
-}
-
-.legend{
-    background-color:#e6f2ff ;
 }
