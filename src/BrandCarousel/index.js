@@ -6,6 +6,8 @@ import './index.css'
 export default class BrandCarousel extends React.Component{
     render(){
         return(
+            <div>
+                <h2 class="brandTitle">Top Brands sold</h2>
             <div class="carouselContainer">
     <Carousel autoPlay showThumbs={false} showStatus={false}>
         <div>
@@ -21,6 +23,7 @@ export default class BrandCarousel extends React.Component{
             <img alt="logo_slide4" src={require('./logo4.PNG')}/>
         </div>
     </Carousel>
+    </div>
     </div>
         )
     }

@@ -1,9 +1,9 @@
-.carouselContainer{
+.carouselContainerProduct{
     margin-left: 200px;
     margin-right: 200px;
 }
 
-.carousel .slide{ background: #e6f2ff; }
+.carousel .slide{ background: #e6f2ff!important; }
 
 .carousel .thumb img {
     width: 100% !important;
@@ -13,4 +13,8 @@
 .carousel .slide img {
     max-height: 300px; 
     width: auto;
+}
+
+.productTitle{
+    text-align: center;
 }

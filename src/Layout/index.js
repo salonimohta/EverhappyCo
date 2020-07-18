@@ -18,6 +18,7 @@ const {children} = this.props;
 			 {
                  children
              }
+             <br/>
 </div>
 
              <div className="grow"/>

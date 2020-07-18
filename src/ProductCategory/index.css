@@ -1,11 +1,25 @@
-.categoryFlex{
+.categoryBox{
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
+    width: 320px;
+    padding: 10px;
+    border: 2px #F7F7F7;
+    background-color: #F7F7F7;
+    margin: 0;
 }
 
-.categoryBox{
+.categoryFlex{
     display:flex;
     flex-direction: row;
     justify-content: space-around;
+}
+
+Button{
+    width: 320px;
+    height: 32px;
+}
+
+.CategoryTitle{
+    text-align: center;
 }

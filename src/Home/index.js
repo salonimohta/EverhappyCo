@@ -9,9 +9,7 @@ export default class Home extends React.Component {
      render() {
          return (
              <div>
-            <div class="welcomeHome">
-                 <b>Welcome to Everhappy Commercial Corporation</b>
-             </div>
+                 
              <ProductCarousel/>
              <ProductCategory/>
              <BrandCarousel/>

@@ -1,77 +1,83 @@
 import React from 'react';
 import './index.css';
-
+import Button from 'react-bootstrap/Button'
 
 export default class ProductCategory extends React.Component {
     render() {
         return (
-            <div class="categoryBox">
+            <div>
+                <h2 class="CategoryTitle">Product Category</h2>
             <div class="categoryFlex">
+                
+            <div class="categoryBox">
                 <div>
-                    Glass Fibre ( Polyester and Epoxy)
-                </div>
-                <div>
-                Mica (Silicon bonded paper mica)
-                </div>
-                <div>
-                Sindhaino
+                    <Button variant="light">Acrylic</Button>
                 </div>
                 <div>
-                    Asbestos
+                    <Button variant="light">Asbestos</Button>
                 </div>
                 <div>
-                    Teflon
+                    <Button variant="light">Bakelite</Button>
                 </div>
                 <div>
-                    Nylon
+                    <Button variant="light">Cable Tie</Button>
                 </div>
                 <div>
-                Polypropylene
+                    <Button variant="light">Cable jointing compound and kit</Button>
                 </div>
                 <div>
-                Copper and Aluminium (DPC,DGC,NPC,Kapton film covering)
+                    <Button variant="light">Copper and Aluminium (DPC,DGC,NPC,Kapton film covering)</Button>
                 </div>
                 <div>
-                    Polyester
+                    <Button variant="light">Furnace Materials</Button>
                 </div>
                 <div>
-                    Nomex
-                </div>
-                </div>
-                <div class="categoryFlex">
-                <div>
-                    Kapton
+                    <Button variant="light">Glass Fibre ( Polyester and Epoxy)</Button>
                 </div>
                 <div>
-                    PVC
+                    <Button variant="light">Kapton</Button>
                 </div>
                 <div>
-                    Cable Tie
+                <Button variant="light">Mica (Silicon bonded paper mica)</Button>
+                </div>
+                </div>
+                <div class="categoryBox">
+                <div>
+                <Button variant="light">Nomex</Button>
                 </div>
                 <div>
-                    Bakelite
+                <Button variant="light">Nylon</Button>
                 </div>
                 <div>
-                    Acrylic
+                <Button variant="light">Polyester</Button>
                 </div>
                 <div>
-                    Transformer Materials
+                <Button variant="light">Polypropylene</Button>
                 </div>
                 <div>
-                    Varnish and Thiner
+                <Button variant="light">PVC</Button>
                 </div>
                 <div>
-                Cable jointing compound and kit
+                <Button variant="light">Sindhaino</Button>
                 </div>
                 <div>
-                Wires and Tapes
+                <Button variant="light">Teflon</Button>
                 </div>
                 <div>
-                Furnace Materials
+                <Button variant="light">Transformer Materials</Button>
                 </div>
                 <div>
-                Other Major Products
+                <Button variant="light">Varnish and Thiner</Button>
                 </div>
+                <div>
+                <Button variant="light">Wires and Tapes</Button>
+                </div>
+                <div>
+                <Button variant="light">Other Major Products</Button>
+                </div>
+                
+                
+            </div>
         </div>
         </div>
         )
