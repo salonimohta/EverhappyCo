@@ -1,36 +1,80 @@
-const readXlsxFile = require('read-excel-file/node');
+import React from 'react';
+import './index.css';
 
-var productCategory=new Map();
-var products=new Map();
-var productInfo=new Map();
 
-function readFile(){
-    let count=1;
-    readXlsxFile('./src/everhappy-products.xlsx').then((rows)=>{
-        rows.forEach(row=>{
-            try{
-                console.log(typeof(row[0]))
-                /*var index=(row[0]).split('.');
-                if (productCategory.has(index[0])){
-                    let productList=products.get(productCategory.get(index[0]));
-                    productList.push(count);
-                    products.set(productCategory.get(index[0]),productList);
-                    productInfo.set(count,{name:row[2],image:row[3],description:row[4]});
-                }
-                else{
-                    productCategory.set(index[0],row[1]);
-                    let productList=new Array();
-                    productList.push(count);
-                    products.set(row[1],productList);
-                    productInfo.set(count,{name:row[2],image:row[3],description:row[4]});
-                }
-                count++;*/
-            }
-            catch(error){
-                console.log(error);
-            }
-        })
-    }).catch(e=>{console.error(e)})
+export default class ProductCategory extends React.Component {
+    render() {
+        return (
+            <div class="categoryBox">
+            <div class="categoryFlex">
+                <div>
+                    Glass Fibre ( Polyester and Epoxy)
+                </div>
+                <div>
+                Mica (Silicon bonded paper mica)
+                </div>
+                <div>
+                Sindhaino
+                </div>
+                <div>
+                    Asbestos
+                </div>
+                <div>
+                    Teflon
+                </div>
+                <div>
+                    Nylon
+                </div>
+                <div>
+                Polypropylene
+                </div>
+                <div>
+                Copper and Aluminium (DPC,DGC,NPC,Kapton film covering)
+                </div>
+                <div>
+                    Polyester
+                </div>
+                <div>
+                    Nomex
+                </div>
+                </div>
+                <div class="categoryFlex">
+                <div>
+                    Kapton
+                </div>
+                <div>
+                    PVC
+                </div>
+                <div>
+                    Cable Tie
+                </div>
+                <div>
+                    Bakelite
+                </div>
+                <div>
+                    Acrylic
+                </div>
+                <div>
+                    Transformer Materials
+                </div>
+                <div>
+                    Varnish and Thiner
+                </div>
+                <div>
+                Cable jointing compound and kit
+                </div>
+                <div>
+                Wires and Tapes
+                </div>
+                <div>
+                Furnace Materials
+                </div>
+                <div>
+                Other Major Products
+                </div>
+        </div>
+        </div>
+        )
+    }
 }
 
-readFile()
