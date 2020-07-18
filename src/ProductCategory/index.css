@@ -23,3 +23,15 @@ Button{
 .CategoryTitle{
     text-align: center;
 }
+
+.productCardsFlex{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.eachCardFlex{
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+}

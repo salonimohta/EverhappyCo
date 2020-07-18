@@ -1,9 +1,13 @@
 import React from 'react';
 import './index.css';
-import Button from 'react-bootstrap/Button'
+import Button from 'react-bootstrap/Button';
+import { useHistory } from "react-router-dom";
 
-export default class ProductCategory extends React.Component {
-    render() {
+const ProductCategory = () => { 
+    const history=useHistory();
+    function redirectUrl(URLpath){
+        history.push(URLpath);
+    }
         return (
             <div>
                 <h2 class="CategoryTitle">Product Category</h2>
@@ -11,69 +15,69 @@ export default class ProductCategory extends React.Component {
                 
             <div class="categoryBox">
                 <div>
-                    <Button variant="light">Acrylic</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/acrylic')}>Acrylic</Button>
                 </div>
                 <div>
-                    <Button variant="light">Asbestos</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/asbestos')}>Asbestos</Button>
                 </div>
                 <div>
-                    <Button variant="light">Bakelite</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/bakelite')}>Bakelite</Button>
                 </div>
                 <div>
-                    <Button variant="light">Cable Tie</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/cable-tie')}>Cable Tie</Button>
                 </div>
                 <div>
-                    <Button variant="light">Cable jointing compound and kit</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/cable-joint')}>Cable jointing compound and kit</Button>
                 </div>
                 <div>
-                    <Button variant="light">Copper and Aluminium (DPC,DGC,NPC,Kapton film covering)</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/Cu-Al')}>Copper and Aluminium (DPC,DGC,NPC,Kapton film covering)</Button>
                 </div>
                 <div>
-                    <Button variant="light">Furnace Materials</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/furnace')}>Furnace Materials</Button>
                 </div>
                 <div>
-                    <Button variant="light">Glass Fibre ( Polyester and Epoxy)</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/glass-fibre')}>Glass Fibre ( Polyester and Epoxy)</Button>
                 </div>
                 <div>
-                    <Button variant="light">Kapton</Button>
+                    <Button variant="light" onClick={()=>redirectUrl('/kapton')}>Kapton</Button>
                 </div>
                 <div>
-                <Button variant="light">Mica (Silicon bonded paper mica)</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/mica')}>Mica (Silicon bonded paper mica)</Button>
                 </div>
                 </div>
                 <div class="categoryBox">
                 <div>
-                <Button variant="light">Nomex</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/nomex')}>Nomex</Button>
                 </div>
                 <div>
-                <Button variant="light">Nylon</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/nylon')}>Nylon</Button>
                 </div>
                 <div>
-                <Button variant="light">Polyester</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/polyester')}>Polyester</Button>
                 </div>
                 <div>
-                <Button variant="light">Polypropylene</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/polypropylene')}>Polypropylene</Button>
                 </div>
                 <div>
-                <Button variant="light">PVC</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/pvc')}>PVC</Button>
                 </div>
                 <div>
-                <Button variant="light">Sindhaino</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/sindhaino')}>Sindhaino</Button>
                 </div>
                 <div>
-                <Button variant="light">Teflon</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/teflon')}>Teflon</Button>
                 </div>
                 <div>
-                <Button variant="light">Transformer Materials</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/transformer')}>Transformer Materials</Button>
                 </div>
                 <div>
-                <Button variant="light">Varnish and Thiner</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/varnish')}>Varnish and Thiner</Button>
                 </div>
                 <div>
-                <Button variant="light">Wires and Tapes</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/wires-tapes')}>Wires and Tapes</Button>
                 </div>
                 <div>
-                <Button variant="light">Other Major Products</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/other-major-products')}>Other Major Products</Button>
                 </div>
                 
                 
@@ -81,6 +85,7 @@ export default class ProductCategory extends React.Component {
         </div>
         </div>
         )
-    }
 }
+
+export default ProductCategory;
 
