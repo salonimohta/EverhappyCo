@@ -23,13 +23,14 @@ export default class Asbestos extends React.Component {
                     <img id="cardImg" src='https://4.imimg.com/data4/LK/HE/MY-1424085/image-500x500.jpg' alt='' />
                     <div>Champion Sheet</div>
                 </div>
-            </div>
-            <br/>
-            <div class="productCards">
                 <div class="productCardBox">
                     <img id="cardImg" src='https://www.shreefirepackindia.com/gifs/asbestos-rope3.jpg' alt='' />
                     <div>Rope</div>
                 </div>
+            </div>
+            <br/>
+            <div class="productCards">
+                
                 <div class="productCardBox">
                     <img id="cardImg" src='https://img.alicdn.com/imgextra/i4/927429866/TB21hqVaXXXXXXWXXXXXXXXXXXX_!!927429866.jpg' alt='' />
                     <div>Belt</div>

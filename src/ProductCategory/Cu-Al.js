@@ -23,9 +23,6 @@ export default class CopperAluminium extends React.Component {
                     <img id="cardImg" src='https://4.imimg.com/data4/EI/YD/NSDMERP-2319183/fiberglassleadwire-500x500.png' alt='' />
                     <div>Glass Lead Wire</div>
                 </div>
-            </div>
-            <br/>
-            <div class="productCards">
             <div class="productCardBox">
                     <img id="cardImg" src='https://wflake.com/wp-content/uploads/2017/02/Draw-Cord-510x341.jpg' alt='' />
                     <div>PTFE Wire</div>

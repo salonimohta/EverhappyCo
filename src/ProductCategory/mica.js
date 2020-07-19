@@ -23,13 +23,14 @@ export default class Mica extends React.Component {
                 <img id="cardImg" src='https://4.imimg.com/data4/VT/FB/MY-197546/1-250x250.jpeg' alt='' />
                 <div>Segment</div>
             </div>
-        </div>
-        <br/>
-        <div class="productCards">
-        <div class="productCardBox">
+            <div class="productCardBox">
                 <img id="cardImg" src='https://bincomica.com/images/tapes1.png' alt='' />
                 <div>Tape</div>
             </div>
+        </div>
+        <br/>
+        <div class="productCards">
+
             <div class="productCardBox">
                 <img id="cardImg" src='https://img3.exportersindia.com/product_images/bc-full/2018/12/4775067/glass-mica-pet-film-tape-1545204545-4576577.jpeg' alt='' />
                 <div>PGMP (Polyester Glass Mica Polyester) Tape And Sheet </div>
