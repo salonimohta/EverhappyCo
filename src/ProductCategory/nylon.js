@@ -4,11 +4,14 @@ import './index.css';
 export default class Nylon extends React.Component {
     render() {
         return (
-            <div class="productCardsFlex">
-                <div class="eachCardFlex">
-                    <img src='https://5.imimg.com/data5/FX/TJ/MY-2503355/acrylic-sheets-500x500.jpg' alt='Acrylic_Sheet' />
-                    <p>Acrylic Sheet</p>
+            <div>
+                <h2 class="productCategoryTitle">Nylon</h2>
+            <div class="productCards">
+                <div class="productCardBox">
+                    <img id="cardImg" src='https://5.imimg.com/data5/UV/MW/SF/SELLER-7004145/nylon-rod-500x500.jpg' alt='' />
+                    <div>Rod</div>
                 </div>
+            </div>
             </div>
         )
     }

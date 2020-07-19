@@ -4,12 +4,15 @@ import './index.css';
 export default class Kapton extends React.Component {
     render() {
         return (
-            <div class="productCardsFlex">
-                <div class="eachCardFlex">
-                    <img src='https://5.imimg.com/data5/FX/TJ/MY-2503355/acrylic-sheets-500x500.jpg' alt='Acrylic_Sheet' />
-                    <p>Acrylic Sheet</p>
-                </div>
+            <div>
+            <h2 class="productCategoryTitle">Kapton</h2>
+        <div class="productCards">
+            <div class="productCardBox">
+                <img id="cardImg" src='https://5.imimg.com/data5/GW/NN/MC/ANDROID-55636845/20190823-182930-jpg-500x500.jpg' alt='' />
+                <div>Film/ Tape/ Cgip/ Permasel</div>
             </div>
+        </div>
+        </div>
         )
     }
 }

@@ -4,11 +4,14 @@ import './index.css';
 export default class Polypropylene extends React.Component {
     render() {
         return (
-            <div class="productCardsFlex">
-                <div class="eachCardFlex">
-                    <img src='https://5.imimg.com/data5/FX/TJ/MY-2503355/acrylic-sheets-500x500.jpg' alt='Acrylic_Sheet' />
-                    <p>Acrylic Sheet</p>
+            <div>
+                <h2 class="productCategoryTitle">Polypropylene</h2>
+            <div class="productCards">
+                <div class="productCardBox">
+                    <img id="cardImg" src='https://5.imimg.com/data5/DX/MR/MY-3240060/polypropylene-rod-500x500.jpg' alt='' />
+                    <div>Rod</div>
                 </div>
+            </div>
             </div>
         )
     }

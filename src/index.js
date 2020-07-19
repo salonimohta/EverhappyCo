@@ -15,7 +15,7 @@ import CableJoint from './ProductCategory/cable-joint';
 import CableTie from './ProductCategory/cable-tie';
 import CopperAluminium from './ProductCategory/Cu-Al';
 import Furnace from './ProductCategory/furnace';
-import GlassFiber from './ProductCategory/glass-fibre';
+import GlassFibre from './ProductCategory/glass-fibre';
 import Kapton from './ProductCategory/kapton';
 import Mica from './ProductCategory/mica';
 import Nomex from './ProductCategory/nomex';
@@ -48,7 +48,7 @@ const routing = (
         <Route path="/cable-tie" component={CableTie} />
         <Route path="/Cu-Al" component={CopperAluminium} />
         <Route path="/furnace" component={Furnace} />
-        <Route path="/glass-fiber" component={GlassFiber} />
+        <Route path="/glass-fibre" component={GlassFibre} />
         <Route path="/kapton" component={Kapton} />
         <Route path="/mica" component={Mica} />
         <Route path="/nomex" component={Nomex} />

@@ -24,14 +24,33 @@ Button{
     text-align: center;
 }
 
-.productCardsFlex{
+.productCards{
     display: flex;
     flex-direction: row;
-    justify-content: space-between;
+    justify-content: flex-start;
+    
 }
 
-.eachCardFlex{
+.productCardBox{
+    width: 200px;
+    border: 10px solid gray;
     display:flex;
     flex-direction: column;
     justify-content: space-around;
+    text-align: center;
+    margin-left: 30px;
+    margin-right: 30px;
+}
+
+#cardImg{
+    margin-top: 10px;
+    border: 1px solid black;
+    margin-left: 10px;
+    margin-right: 10px;
+    width: 180px;
+    height: 180px;
+}
+
+.productCategoryTitle{
+    margin-left: 30px;
 }
