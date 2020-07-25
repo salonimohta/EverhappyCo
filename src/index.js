@@ -3,7 +3,6 @@ import ReactDOM from 'react-dom';
 import { Route, HashRouter as Router,Switch } from 'react-router-dom';
 import Home from './Home';
 import AboutUs from './AboutUs';
-import Products from './Products';
 import Brands from './Brands';
 import Articles from './Articles';
 import ContactUs from './ContactUs';
@@ -29,15 +28,23 @@ import Teflon from './ProductCategory/teflon';
 import Transformer from './ProductCategory/transformer';
 import VarnishThiner from './ProductCategory/varnish';
 import WiresTapes from './ProductCategory/wires-tapes';
+import Product from './ProductCategory/Product'
 
-
+const productDetails=[
+  {imageUrl: "https://5.imimg.com/data5/FX/TJ/MY-2503355/acrylic-sheets-500x500.jpg",
+  productName: "Sheet",
+  productCategory: "Acrylic",
+  productSpecification: "Color : Transparent \n Thickness(mm) : 3mm to 25mm \n Finishing Type : Glossy \n Size : 1220mm X 2440mm \n Feature : Odourless \n Density (g per cube cm) : 1.2\n Material : Acrylic\n",
+  ProductDescription: "Shows a good mechanical, tensile strength and hardness, is easy to polish.\n Available in: \nAcrylic Sheet \nAcrylic Tube",
+  Features: "Crystal Clear, Easily thermo-formed, Lightweight"
+}
+]
 const routing = (
   <Router>
   <Layout>
         <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/aboutus" component={AboutUs} />
-        <Route path="/products" component={Products} />
         <Route path="/brands" component={Brands} />
         <Route path="/articles" component={Articles} />
         <Route path="/contactus" component={ContactUs} />
@@ -62,6 +69,7 @@ const routing = (
         <Route path="/transformer" component={Transformer} />
         <Route path="/varnish" component={VarnishThiner} />
         <Route path="/wires-tapes" component={WiresTapes} />
+        <Route path={`/product/${productDetails[0].productCategory}-${productDetails[0].productName}`} component={()=><Product aboutProduct={productDetails[0]} /> } />
         </Switch>
   </Layout>
   </Router>
