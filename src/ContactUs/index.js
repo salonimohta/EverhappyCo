@@ -2,6 +2,14 @@ import React from 'react';
 import './index.css';
 
 export default class Home extends React.Component {
+    check(){
+        /*const form = new FormData(e.target);
+        const formula = form.get("name");
+        console.log(formula);*/
+        var nameValue = document.getElementById("name").value;
+        console.log(nameValue);
+
+    }
      render() {
          return (
              <div class="contactPage">
@@ -18,45 +26,45 @@ export default class Home extends React.Component {
                  <h3><b>Please fill out the form for an enquiry about a product!</b></h3>
                  <h4><span style={{color:"red"}}>Fields marked with * are required</span></h4>
                  <div class="container">
-                    <form>
+                    <form onSubmit={this.check.bind(this)}>
                     <div class="row">
                         <div class="col-25">
-                            <label for="name">Name<span style={{color:"red"}}>*</span></label>
+                            <label>Name<span style={{color:"red"}}>*</span></label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="name" name="name" placeholder="Your name.." required />
+                            <input type="text" id="name" placeholder="Your name.." required />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label for="address">Address</label>
+                            <label>Address</label>
                         </div>
                         <div class="col-75">
-                            <textarea id="address" name="address" placeholder="Your address.." style={{height:"100px"}} />
+                            <textarea id="address" placeholder="Your address.." style={{height:"100px"}} />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label for="contact">Contact No<span style={{color:"red"}}>*</span></label>
+                            <label>Contact No<span style={{color:"red"}}>*</span></label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="contact" name="contact" placeholder="Your phone no.." required />
+                            <input type="text" id="contact" placeholder="Your phone no.." required />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label for="email">Email<span style={{color:"red"}}>*</span></label>
+                            <label>Email<span style={{color:"red"}}>*</span></label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="email" name="email" placeholder="Your email id.." required />
+                            <input type="text" id="email" placeholder="Your email id.." required />
                         </div>
                     </div>
                     <div class="row">
                         <div class="col-25">
-                            <label for="enquiry">Enquiry Detail<span style={{color:"red"}}>*</span></label>
+                            <label>Enquiry Detail<span style={{color:"red"}}>*</span></label>
                         </div>
                         <div class="col-75">
-                            <textarea id="enquiry" name="enquiry" placeholder="Send Enquiry" style={{height:"100px"}} required />
+                            <textarea id="enquiry" placeholder="Send Enquiry" style={{height:"100px"}} required />
                         </div>
                     </div>
                     <div class="row">

@@ -1,7 +1,6 @@
 import React from 'react';
 import {Link} from 'react-router-dom';
 import './index.css';
-import { Dropdown } from 'react-bootstrap';
 
 export default class Navbar extends React.Component{
   constructor(){
