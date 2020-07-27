@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import Search from '../Search';
 
 export default class Header extends React.Component{
     render(){
@@ -17,7 +18,11 @@ export default class Header extends React.Component{
 				          </div>
 				          <div className="flex-container2">
 				            <div className="L1">Everhappy Commercial Corporation</div>
+							<div className="L2">Deals in: Electrical Insulating Materials</div>
 				          </div>
+						  <div className="flex-container3">
+							<Search />
+						  </div>
 				    </div>
 	            </div>
                

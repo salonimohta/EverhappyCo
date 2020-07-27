@@ -1,5 +1,6 @@
 import React from 'react';
 import './index.css';
+import {Link} from 'react-router-dom';
 
 export default class Mica extends React.Component {
     render() {
@@ -9,23 +10,23 @@ export default class Mica extends React.Component {
         <div class="productCards">
             <div class="productCardBox">
                 <img id="cardImg" src='https://5.imimg.com/data5/WN/LI/MY-1634853/tufflam-silicon-bonded-mica-sheet-phlgophite-500x500.jpg' alt='' />
-                <div>Sheet</div>
+                <Link to="/product/Mica-Sheet">Sheet</Link>
             </div>
             <div class="productCardBox">
                 <img id="cardImg" src='https://tiimg.tistatic.com/fp/2/001/184/silicon-bonded-mica-tubes-781.jpg' alt='' />
-                <div>Tube</div>
+                <Link to="/product/Mica-Tube">Tube</Link>
             </div>
             <div class="productCardBox">
                 <img id="cardImg" src='https://5.imimg.com/data5/AM/SV/MY-5361308/mica-paper-board-washer-500x500.jpg' alt='' />
-                <div>Washer</div>
+                <Link to="/product/Mica-Washer">Washer</Link>
             </div>
             <div class="productCardBox">
                 <img id="cardImg" src='https://4.imimg.com/data4/VT/FB/MY-197546/1-250x250.jpeg' alt='' />
-                <div>Segment</div>
+                <Link to="/product/Mica-Segment">Segment</Link>
             </div>
             <div class="productCardBox">
                 <img id="cardImg" src='https://bincomica.com/images/tapes1.png' alt='' />
-                <div>Tape</div>
+                <Link to="/product/Mica-Tape">Tape</Link>
             </div>
         </div>
         <br/>
@@ -33,11 +34,11 @@ export default class Mica extends React.Component {
 
             <div class="productCardBox">
                 <img id="cardImg" src='https://img3.exportersindia.com/product_images/bc-full/2018/12/4775067/glass-mica-pet-film-tape-1545204545-4576577.jpeg' alt='' />
-                <div>PGMP (Polyester Glass Mica Polyester) Tape And Sheet </div>
+                <Link to="/product/Mica-Polyester_Glass_Mica_Poyester">PGMP (Polyester Glass Mica Polyester) Tape And Sheet </Link>
             </div>
             <div class="productCardBox">
                 <img id="cardImg" src='https://4.imimg.com/data4/AP/EH/MY-20487121/mica-sheet-500x500.jpg' alt='' />
-                <div>HRM Sheet</div>
+                <Link to="/product/Mica-HRM_Sheet">HRM Sheet</Link>
             </div>
         </div>
         </div>       

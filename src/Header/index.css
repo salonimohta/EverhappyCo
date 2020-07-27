@@ -12,16 +12,22 @@
     align-self: center;
 
 }
-.raitLogo{
-    height: 20vh;
-    margin-left: 60vh;
-}
 .flex-container2{
     display: flex;
     flex-direction: column;
     justify-content: center;
     font-size:2.2vh;
+    padding-left: 3vh;
 }
+
+.flex-container3{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    font-size:2.2vh;
+    padding-left: 50vh;
+}
+
 .L1{
     color: #0E157C;
     font-size: 5vh;
@@ -57,9 +63,5 @@
     }
     .img{
         height: 15vh;
-    }
-    .raitLogo{
-        height: 12vh;
-        margin-left: 2vh;
     }
 }

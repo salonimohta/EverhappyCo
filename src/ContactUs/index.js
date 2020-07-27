@@ -2,14 +2,6 @@ import React from 'react';
 import './index.css';
 
 export default class Home extends React.Component {
-    check(){
-        /*const form = new FormData(e.target);
-        const formula = form.get("name");
-        console.log(formula);*/
-        var nameValue = document.getElementById("name").value;
-        console.log(nameValue);
-
-    }
      render() {
          return (
              <div class="contactPage">
@@ -26,7 +18,7 @@ export default class Home extends React.Component {
                  <h3><b>Please fill out the form for an enquiry about a product!</b></h3>
                  <h4><span style={{color:"red"}}>Fields marked with * are required</span></h4>
                  <div class="container">
-                    <form onSubmit={this.check.bind(this)}>
+                    <form>
                     <div class="row">
                         <div class="col-25">
                             <label>Name<span style={{color:"red"}}>*</span></label>
