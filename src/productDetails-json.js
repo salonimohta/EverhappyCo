@@ -185,7 +185,7 @@ const productDetails=[
     },
     {
         productCategory: "Asbestos",
-        productName: "Champion Sheet ",
+        productName: "Champion_Sheet ",
         imageURL: "https://4.imimg.com/data4/LK/HE/MY-1424085/image-500x500.jpg",
         productSpecification: "Brand        Champion\r\nThickness        0.5 - 5 mm\r\nSize        1.5 mtr x 2 mtr & 2 mtr x 6 mtr\r\nColor        Brown",
   productDescription:"Our Company is one of the remarkable organizations for offering a wide array of Champion Style 51 Asbestos Jointing Sheet to the customer. These products designed from selected Asbestos Fiber and bonded with high-grade binder compound.",
@@ -310,14 +310,14 @@ const productDetails=[
     },
     {
         productCategory: "Polyester",
-        productName: "Film_Tape",
+        productName: "Film|Tape",
         imageURL: "https://5.imimg.com/data5/EC/EE/MY-13735391/polyester-tape-500x500.jpg",
         productSpecification: "Color        Available In Different Color\r\nFeature        Antistatic, Heat Resistant\r\nMaterial        Polyester",
   productDescription:"Owing to the rich industrial experience and expertise in this business, we are involved in providing a supreme quality array of Polyester Tape ."
     },
     {
         productCategory: "Polyester",
-        productName: "Minilux_Sheet_Vartex_Bicco_Garlam",
+        productName: "Minilux_Sheet|Vartex|Bicco|Garlam",
         imageURL: "https://3.imimg.com/data3/CX/HE/MY-3060441/polyester-papers-250x250.jpg",
         productSpecification: "Material        Polyester Film\r\nGSM        150 - 200\r\nProduct Type        Polyester Papers\r\nTape Size        22 mm to 52 mm\r\nThickness        3 Mil to 5 Mil\r\nViscose        100%",
   productDescription:"Our firm specializes in offering an excellent collection of Polyester Papers. This paper is manufactured using topmost grade polyester material and sophisticated technology in conformity with the certified industry norms at vendors' end. In order to deliver the defect free range at clients' end, this range is checked against the various parameters of quality before supply, set by international industry.",
@@ -345,14 +345,14 @@ const productDetails=[
     },
     {
         productCategory: "Kapton",
-        productName: "Film_Tape_Cgip_Permasel",
+        productName: "Film|Tape|Cgip|Permasel",
         imageURL: "https://5.imimg.com/data5/GW/NN/MC/ANDROID-55636845/20190823-182930-jpg-500x500.jpg",
         productSpecification: "Brand        Kapton Film(Polymide film)\r\nPackaging Type        Roll\r\nPackaging Size        15 inch\r\nMinimum Order Quantity        5 Kilogram",
   productDescription:"Heat Resistant"
     },
     {
         productCategory: "PVC",
-        productName: "Polyester_Roll_Tape_Imported_Pvc_Tape",
+        productName: "Polyester_Roll|Tape|Imported_Pvc_Tape",
         imageURL: "https://5.imimg.com/data5/IF/DB/MY-9745384/polyester-film-500x500.jpg",
         productSpecification: "Pack Size        As Per Customer Requirement\r\nPackaging Type        As Per Customer Requirement",
   productDescription:"We are a well-renowned organization in the industry to provide our patrons the best quality array of Polyester Film Roll.",
@@ -421,7 +421,7 @@ const productDetails=[
     },
     {
         productCategory: "Tranformer_Materials",
-        productName: "Insulating_Paper_Tape",
+        productName: "Insulating_Paper|Tape",
         imageURL: "https://tiimg.tistatic.com/fp/2/005/804/electrical-insulating-paper-173.jpg",
         productDescription: "Electrical Insulating Paper",
   productSpecification:"Unbleached sulphate pulp \r\nSmooth.tough.mechanical and electric intensity\r\nElectrical insulating paper \r\nModel: P.4.1 \r\nStandard: IEC641 - 3 - 2 \r\nDensity: 1.0 - 1 .2g/cm3 \r\nThickness: 0.1 - 0.5 mm\r\nMoisture: 8%\r\nPacking :Roll or plate.\r\nWidth: Usual width is from 960mm to 1360mm, other special request can be negotiated.\r\nRaw material: 100% high-purity sulphate pulp \r\nCharacteristics: smooth, full of tenacity, high mechanical and electrical strength. \r\nColor: Natural Brown green, red, yellow, etc.\r\nThis series of products are made of 100% purified unbleached sulphate pulp, without any other filling. With good properties of dielectric, mechanical, smooth and tough, they are widely used in the fields of transformer, engines, power cable, electrical appliance and instruments as insulating material, and also used to make polyester film/Kraft paper flexible laminate, electrical insulating paperboard, etc.\r\n\r\nSpecial size and thickness can be customized according to customer requirements."
@@ -448,7 +448,7 @@ const productDetails=[
     },
     {
         productCategory: "Tranformer_Materials",
-        productName: "Clamp_Gutka_Arching_Horn",
+        productName: "Clamp|Gutka|Arching_Horn",
         imageURL: "https://5.imimg.com/data5/JL/PU/SE/SELLER-49834376/transformers-arcing-horn-500x500.jpg",
         productSpecification: "Material        Aluminium\r\nUsage/Application        Transformer\r\nThickness        5 - 10 mm\r\nPackaging Type        Box\r\nCorrosion Resistant        Yes",
   productDescription:"Riding on unfathomable volumes of industrial expertise, we are providing a broad array of Transformers Arcing Horn."
@@ -502,7 +502,7 @@ const productDetails=[
     },
     {
         productCategory: "Varnish_and_Thiner",
-        productName: "Dr_Beck_Lurex_Jyoti",
+        productName: "Dr_Beck|Lurex|Jyoti",
         imageURL: "https://3.imimg.com/data3/FA/XY/MY-4993915/insulating-varnish-500x500.jpg",
         productSpecification: "Type        Industrial\r\nBrand        Dr.beck/Jyoti varnishes\r\nColor        Golden/clear\r\nUsage/Application        Transformer winding/Motor winding\r\nPackaging Type        Bottle\r\nForm        Liquid\r\nPackaging Size        1 Litre\r\nMinimum Order Quantity        10 Litre",
   productDescription:"We produce Fast Drying Insulating Varnish which is a also known as Golden Varnish. This Varnish has excellent dielectric strength, thermal stability, scratch resistance, chemical resistance and higher impact resistance. It is widely demanded for insulation''s purposes for transformers coils, motor winding, etc.",
@@ -517,7 +517,7 @@ const productDetails=[
     },
     {
         productCategory: "Varnish_and_Thiner",
-        productName: "Accelerator_Catalyst",
+        productName: "Accelerator|Catalyst",
         imageURL: "https://5.imimg.com/data5/SB/PA/MY-1610801/accelerator-250x250.png",
         productSpecification: "Packaging Size        30\r\nPackaging Type        Tin\r\nPhysical State        Liquid\r\nUsage        FRP\r\nMinimum Order Quantity        30 Kilogram",
   productDescription:"We deals in all grades of Accelerator for FRP INDUSTRIES."
@@ -554,7 +554,7 @@ const productDetails=[
     },
     {
         productCategory: "Wires_and_Tapes",
-        productName: "Kanthal_Wire_Strip",
+        productName: "Kanthal_Wire|Strip",
         imageURL: "https://www.kanthal.com/filtered/26346/rszww290-90/resistance-heating-wire-and-resistance-wire-white-223849391-rszww290-90.jpg",
         productSpecification: "Material        Nichrome\r\nUsage/Application        Industrial / Electrical\r\nWire Gauge Swg        6 swg to 42 swg\r\nI Deal In        New Only\r\nHighest Temperature        1200 Deg C\r\nColor        Silver\r\nShape        Strip\r\nStrip Wire Size        Thickness: 0.10 - 4 mm / Width: 4 - 15 mm",
   productDescription:"We offer Nikrothal 80 Wires & Strips. Nikrothal 80 is an austenitic nickel-chromium alloy (NiCr alloy) for use at temperatures up to 1200°C . The alloy is characterized by high resistivity, good oxidation resistance and very good form stability. It has good ductility after use and excellent weldability.\r\n\r\nNikrothal 80 is used for electric heating elements in home appliances and industrial furnaces. Typical applications are flat irons, ironing machines, water heaters, plastic moulding dies, soldering irons, metal sheathed tubular elements and cartridge elements.\r\n\r\nDue to extremely good adhesion properties of the surface oxide, Nikrothal 80 offers superior service life compared to competitive nickel-chromium alloys.Resistance heating strip wire is for furnace heating elements and other heat-generating applications like industrial heaters. The strip is normally delivered in cold-rolled condition with ground surface.\r\n\r\nOur wide range of resistance heating alloys in strip form makes it possible to select the most appropriate grade and size for each respective application, resulting in optimum end-product performance."
@@ -698,7 +698,7 @@ const productDetails=[
     },
     {
         productCategory: "Furnace_Materials",
-        productName: "Semi_Conducting_Tape_&_I_V_Tape_Amal_Gama_Ting_Tape_&_Self_Fusing_Tape",
+        productName: "Semi_Conducting_Tape_&_I_V_Tape|Amal_Gama_Ting_Tape_&_Self_Fusing_Tape",
         imageURL: "https://5.imimg.com/data5/LY/ES/FC/SELLER-2656752/3m-scotch-13-semi-conducting-tape-500x500.jpg",
         productSpecification: "Color        Black\r\nBrand        3M\r\nSize        19MM X 4.5MTR\r\nPackaging Type        BOX",
   productDescription:"Scotch 13 Semi-Conducting Tape",
@@ -794,7 +794,7 @@ const productDetails=[
     },
     {
         productCategory: "Other_Major_Products",
-        productName: "Rubber_Synthetic_Mat_11Kv_33Kv",
+        productName: "Rubber|Synthetic_Mat_11Kv_33Kv",
         imageURL: "https://content3.jdmagicbox.com/comp/kolkata/e1/033pxx33.xx33.180305140126.b7e1/catalogue/duratuf-products-private-limited-kolkata-rubber-product-exporters-h96du.jpg",
         productSpecification: "Thickness        2.00 mm\r\nSize        1 MTR. * 2 MTR\r\nBrand        Elite\r\nColor        Black\r\nMaterial        Rubber\r\nSurface        cloth impression or anti-slip\r\nInsulation Resistance With Water        10,00,000 MQ(Min.)",
   productDescription:"Insulating Mats:\r\n\r\nWe offer Electrical Insulating Synthetic Mats that adhere to the latest 15652:2006. B. I. S. + CPR + ERDA approved for protection against electric shock.\r\n\r\n\r\n\r\nApplication of insulating mats:\r\n\r\nOur \"dozz\" ISI marked electrical insulating mats for electrical purposes offers varied applications in multiple substations, power plants and other areas. Electrical insulating mats are invaluable as floor covering below control panels protect the safety of workman against possible leakage of current.\r\n\r\nComposition of insulating mats: The electrical insulating mats are made up of blend of synthetic polymers.\r\n\r\nUnique Feature: The \"dozz\" becomes the first brand in Indian market to receive the ISI mark on Insulating Mat for Electrical Purposes.\r\n\r\n \r\n\r\nTechnical Specification Of Electrical Insulating Mats:\r\n\r\nSize        1 MTR. * 2 MTR\r\nColour        BLACK/RED(other colour as agreed between supplier and purchaser\r\nFinish        One side plain/Other side Patterned\r\nTensile Strength        For Temp. -10 to 55°C-15 N/mm (Min.) For Temp. -40 to 27°C 12 (Min)\r\nElongation At Break        For Temp. -10 to 55°C-250%(Min.) For Temp. -40 to 27°C-350% (Min)\r\nInsulation Resistance With Water        10,00,000 MQ(Min.)\r\nLeakage Current        10 uA(Max.)\r\nFlame Retardence        The Mat is retarded to fire.\r\nLow Temperature Resistance        No tear, break or crack is observed in Mats under force of 100N for 30 hrs. at -40°C\r\nAging Test (For Temp. -10 to 55° C and Temp. -40 to 27°C)\r\n1. Tensile Strength        Not less then 75% without Aging.\r\n2. Elongation at break        Not less then 75% without Aging.\r\nEffect Of Naoh, Transformance Oil, HCL (For Temp.-10 to 55°C and Temp.-40 to 27°C)\r\n1. Tensile Strength        Not less then 80% without Aging.\r\n2. Elongation at break        Not less then 80% without Aging.\r\n \r\n\r\nS.NO.        Class Of Mats        Thickness        Dielectric Strength        AC RMS Voltage\r\n1        A        2.00 mm        30 KV        3.3 KV\r\n2        B        2.50 mm        45 KV        11 KV\r\n3        C        3.00 mm        65 KV        33 KV"
@@ -867,7 +867,7 @@ const productDetails=[
     },
     {
         productCategory: "Other_Major_Products",
-        productName: "Gland_Aluminium_Copper",
+        productName: "Gland-Aluminium|Copper",
         imageURL: "https://5.imimg.com/data5/GW/MS/WI/SELLER-9797329/dowells-cable-glands-500x500.jpg",
         productSpecification: "Brand        Dowells\r\nPart Number        CWD\r\nType        SC,DC\r\nMaterial        Brass\r\nIP Rating        IP40,IP44,IP54,IP55,IP33\r\nCable Diameter        10MM TO 88MM\r\nPackaging Type        BOX\r\nMinimum Order Quantity        1 Number",
   productDescription:"Dowells Cable Glands\r\nWe are presenting a huge assortment of Dowells Cable Glands to our customers. Offered Cable Gland is accurate in dimension and defects free at the same time. Also, we use high-grade metal in the fabrication of these glands that make it highly durable and corrosion resistant.",
@@ -875,7 +875,7 @@ const productDetails=[
     },
     {
         productCategory: "Other_Major_Products",
-        productName: "Ss_Wire_Sheet_Nut_Bolt",
+        productName: "Ss_Wire|Sheet|Nut-Bolt",
         imageURL: "https://3.imimg.com/data3/LL/AH/MY-48310/ss-wire-rod-ss-wire-250x250.jpg",
         productDescription:"We introduce ourselves as an eminent, exporter, importer, trader and supplier of SS Wire. Our provided steel wire rod is accessible in as various customized options & other specifications as per the needs of customers. Offered steel wire rod is from the optimum quality material & contemporary techniques. Furthermore, this steel wire rod is acknowledged among the clientele for its several qualitative attributes.",
   Features:"Strong in construction\r\nOptimum quality\r\nHighly flexible"
@@ -888,7 +888,7 @@ const productDetails=[
     },
     {
         productCategory: "Other_Major_Products",
-        productName: "Gi_Strip_Wire_Nut_Bolt_Sheet_Cable_Tray_Ladder",
+        productName: "Gi_Strip|Wire|Nut-Bolt|Sheet|Cable_Tray_Ladder",
         imageURL: "https://5.imimg.com/data5/SL/WC/MY-2065175/aluminum-ladder-type-cable-tray-500x500.jpg",
         productSpecification: "Brand        Ec\r\nMaterial        DMC\r\nRated Voltage        1100v\r\nSize        25x3,25x5,50x3,50x5,25*3,50*3,25*6,50*6\r\nColor        Red\r\nModel Number        Est-325\r\nBreaking Current        5ka\r\nCondition        New\r\nFlame Retardance        Yes\r\nMinimum Order Quantity        200 Number",
   productDescription:"DMC insulators, use in earthing and solar\r\n\r\n"
@@ -924,7 +924,7 @@ const productDetails=[
     },
     {
         productCategory: "Other_Major_Products",
-        productName: "Rubber_Tape_Bitumen_Cable_Compound_Cable_Cold_Filling_Compound_Paraplast",
+        productName: "Rubber_Tape|Bitumen_Cable_Compound|Cable_Cold_Filling_Compound|Paraplast",
         imageURL: "https://5.imimg.com/data5/CX/ZO/JH/SELLER-4432447/h-t-bitumen-compound-500x500.JPG",
         productSpecification: "Not enough information"
     },
@@ -937,7 +937,7 @@ const productDetails=[
     },
     {
         productCategory: "Other_Major_Products",
-        productName: "Soldering_Stick_Tinning_Paste",
+        productName: "Soldering_Stick|Tinning_Paste",
         imageURL: "https://5.imimg.com/data5/UI/IR/MY-2898030/aac-soldering-materials-500x500.jpg",
         productSpecification: "Brand        AAC\r\nMaterial Composition        Sn60/Pb40\r\nMaterial Melting Temperature        183-190 degree C\r\nMaterial Type        Bar, Rod, Stick\r\nMinimum Order Quantity        100 Kilogram",
   productDescription:"We have high specialization in manufacturing supreme quality 60/40 Solder Stick.\r\nOXIDE FREE SOLDER STICKS"
