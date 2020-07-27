@@ -40,7 +40,7 @@ export default class Navbar extends React.Component{
           {
             this.state.showMenu 
             ? (
-              <div className="dropdownMenu stack-top">
+              <div className="dropdownMenu">
                   <div className="dropdownSection">
                     <Link to="/acrylic">Acrylic</Link>
                     <Link to="/asbestos">Asbestos</Link>

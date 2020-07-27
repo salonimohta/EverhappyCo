@@ -32,6 +32,7 @@
     flex-direction: row;
     justify-content: flex-start;
     margin-left: 230px;
+    z-index: 10;
   }
 
   .dropdownMenu a {

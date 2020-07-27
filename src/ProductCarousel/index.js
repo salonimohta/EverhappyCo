@@ -7,9 +7,7 @@ export default class ProductCarousel extends React.Component{
     render(){
         return(
             <div>
-                <br/>
                 <h2 class="productTitle">Top Products at Everhappy Commercial Corporation</h2>
-                <br/>
             <div class="carouselContainerProduct">
     <Carousel autoPlay>
         <div>
