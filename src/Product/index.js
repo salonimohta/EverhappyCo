@@ -1,17 +1,40 @@
 import React from 'react';
 import './index.css';
+import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
+import 'react-tabs/style/react-tabs.css';
 
 export default class Product extends React.Component {
      render() {
          return (
-             <div>
-                 <img src={`${this.props.aboutProduct.imageURL}`} alt="" />
-                 <h2>Name: {this.props.aboutProduct.productName} </h2>
-                 <h2>Category: {this.props.aboutProduct.productCategory}</h2>
-                 <h2>Specification: {this.props.aboutProduct.productSpecification}</h2>
-                 <h2>Description: {this.props.aboutProduct.productDescription}</h2>
-                 <h2>Features: {this.props.aboutProduct.Features}</h2>
+             <div className="productBox">
+            <Tabs defaultIndex={0}>
+            <TabList>
+              <Tab>About</Tab>
+              <Tab>Description</Tab>
+              <Tab>Features</Tab>
+            </TabList>
+            <div className="productInfo">
+                <div>
+                    <img src={`${this.props.aboutProduct.imageURL}`} alt="" className="productImg" />
+                </div>
+                <div className="productContent">
+                <TabPanel>
+                    <h4>Name: {this.props.aboutProduct.productName.replace('_',' ')} </h4>
+                    <h4>Category: {this.props.aboutProduct.productCategory.replace('_',' ')}</h4>
+                    <h4>Specification: {this.props.aboutProduct.productSpecification}</h4>
+                </TabPanel>
+                <TabPanel>
+                    <h4>Description: {this.props.aboutProduct.productDescription}</h4>
+                </TabPanel>
+                <TabPanel>
+                    <h4>Features: {this.props.aboutProduct.Features}</h4>
+                </TabPanel>
+                </div>
             </div>
+             </Tabs>
+                 </div>
+                 
+
          )
      }
  }

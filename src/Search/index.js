@@ -8,8 +8,9 @@ export default class Search extends React.Component{
             <div>
                 <form>
                     <div className="searchBar">
+                    <SearchIcon fontSize={"large"} />
                     <input type="text" placeholder="Search for Products.." /> 
-                        <SearchIcon fontSize={"large"} />
+                    <input type="submit" value="Search" />
 
                     </div>
                 </form>

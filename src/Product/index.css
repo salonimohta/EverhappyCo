@@ -1,0 +1,19 @@
+.productBox{
+    padding: 50px 50px;
+    text-align: justify;
+}
+
+.productInfo{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+}
+
+.productImg{
+    width: 300px;
+    padding: 20px;
+}
+
+.productContent{
+    padding: 20px;
+}
