@@ -1,5 +1,6 @@
-.welcomeHome{
-    font-size: 4vh;
-    text-align: center;
+.aboutUsStyle{
+    padding: 20px 50px 20px 50px;
+    font-size: 3.2vh;
+    text-align: justify;
     color: #0E157C;
 }
