@@ -30,6 +30,7 @@ import VarnishThiner from './ProductCategory/varnish';
 import WiresTapes from './ProductCategory/wires-tapes';
 import Product from './Product'
 import productDetails from './productDetails-json';
+import SearchResult from './SearchResult';
 
 const routing = (
   <Router>
@@ -64,7 +65,7 @@ const routing = (
         {productDetails.map((pro)=>{
           return <Route path={`/product/${pro.productCategory}-${pro.productName}`} component={()=><Product aboutProduct={pro} />} />
         })}
-        
+        <Route path="/searchResults" component={SearchResult} />
         </Switch>
   </Layout>
   </Router>
