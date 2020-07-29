@@ -10,22 +10,30 @@
     resize: vertical;
   }
 
-  input[type=submit] {
+  .searchButton{
     background-color: #4CAF50;
     color: white;
-    padding: 12px 20px;
+    margin-left: 5px;
     border: none;
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    height: 40px;
+    width: 100px;
   }
   
-  input[type=submit]:hover {
+  .searchButton:hover {
     background-color: #45a049;
   }
 
   .searchBar{
       display: flex;
       flex-direction: row;
-      justify-content: center;
+  }
+
+  .selectSearch{
+    width: 300px;
+    border: none;
+    border-radius: 4px;
+    height: 40px;
   }
