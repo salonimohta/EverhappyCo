@@ -48,7 +48,7 @@ class Search extends React.Component{
                     }
                 })
                 if (termsMatched===searchKeywordsList.length) displayIdsForAllTerms.push(product.productId);
-                else displayIdsForSomeTerms.push(product.productId);
+                else if (termsMatched>0) displayIdsForSomeTerms.push(product.productId);
             })
             if (this.props.history.location.pathname==='/searchResults'){
                 this.props.history.replace({
