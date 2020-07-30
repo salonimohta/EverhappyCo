@@ -38,17 +38,36 @@ class Search extends React.Component{
             let displayIdsForSomeTerms=[];
             productDetails.forEach((product)=>{
                 let termsMatched=0;
+                let section=[];
                 searchKeywordsList.forEach((keyword)=>{
-                    if ((product.productName!=null && product.productName.replace(/_/g,' ').replace(/\|/g,' ').toLowerCase().includes(keyword.toLowerCase())) || 
-                        (product.productCategory!=null && product.productCategory.replace(/_/g,' ').toLowerCase().includes(keyword.toLowerCase())) || 
-                        (product.productSpecification!=null && product.productSpecification.toLowerCase().includes(keyword.toLowerCase())) || 
-                        (product.productDescription!=null && product.productDescription.toLowerCase().includes(keyword.toLowerCase())) || 
-                        (product.Features!=null && product.Features.toLowerCase().includes(keyword.toLowerCase()))){
-                            termsMatched=termsMatched+1;    
+                    let regexExp='\\b'+keyword.toLowerCase()+'\\b';
+                    let regex=new RegExp(regexExp,"gim");
+                    if (product.productName!=null && regex.test(product.productName.replace(/_/g,' ').replace(/\|/g,' '))){
+                        if (!section.includes('productName')) section.push('productName');
                     }
+                    else if(product.productCategory!=null && regex.test(product.productCategory.replace(/_/g,' '))){
+                        if (!section.includes('productCategory')) section.push('productCategory');
+                    } 
+                    else if(product.productSpecification!=null && regex.test(product.productSpecification)){
+                        if (!section.includes('productSpecification')) section.push('productSpecification');
+                    }
+                    else if(product.productDescription!=null && regex.test(product.productDescription)){
+                        if (!section.includes('productDescription')) section.push('productDescription');
+                    }
+                    else if(product.Features!=null && regex.test(product.Features)){
+                        if (!section.includes('Features')) section.push('Features');
+                    }
+                    else termsMatched=termsMatched-1;
+                    termsMatched=termsMatched+1;
                 })
-                if (termsMatched===searchKeywordsList.length) displayIdsForAllTerms.push(product.productId);
-                else if (termsMatched>0) displayIdsForSomeTerms.push(product.productId);
+                if (termsMatched===searchKeywordsList.length){
+                    let productMatched={productId: product.productId, sectionMatched: section}
+                    displayIdsForAllTerms.push(productMatched);
+                }
+                else if (termsMatched>0){
+                    let productMatched={productId: product.productId, sectionMatched: section}
+                    displayIdsForSomeTerms.push(productMatched);
+                }
             })
             if (this.props.history.location.pathname==='/searchResults'){
                 this.props.history.replace({
