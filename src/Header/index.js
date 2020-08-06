@@ -11,7 +11,7 @@ export default class Header extends React.Component{
 				         <div className="image">
 				            
 				              <img
-				                className="img"
+				                className="LogoImg"
 				                src={require("../ecc_logo.png")}
 				                alt="everhappy logo"
 				              />

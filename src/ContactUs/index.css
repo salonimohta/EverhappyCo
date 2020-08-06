@@ -8,6 +8,20 @@
     margin-top: 100px;
 }
 
+.intl-tel-input {width: 1000px;}
+
+#contact{
+  width:1000px;
+}
+
+#valid-msg{
+  color:green;
+}
+
+#invalid-msg{
+  color: red;
+}
+
 * {
     box-sizing: border-box;
   }
@@ -33,6 +47,7 @@
     border-radius: 4px;
     cursor: pointer;
     float: right;
+    width:100px;
   }
   
   input[type=submit]:hover {
