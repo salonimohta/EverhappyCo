@@ -2,67 +2,54 @@ import React from 'react';
 import './index.css';
 import IntlTelInput from 'react-intl-tel-input';
 import 'react-intl-tel-input/dist/main.css';
-import axios from 'axios';
-import { Thumbs } from 'react-responsive-carousel';
-
 
 export default class Home extends React.Component {
     constructor(props){
         super(props);
         this.state={
+            emailAuthenticated: false,
             correctContact: false,
             showContactMessage: false,
-            correctEmail: false,
+            validEmail: false,
             showEmailMessage: false,
             currentCountryCode: "IN",
             name: null,
-            address: null,
-            contact: null,
+            address: "NA",
+            contact: "NA",
             email: null,
             enquiryMessage: null
         };
         this.handleEmailChange=this.handleEmailChange.bind(this);
         this.handleSubmit=this.handleSubmit.bind(this);
     }
-    /*componentDidMount(){
-        fetch('https://geoip-db.com/json/').then(response => {
-            if (response.ok) {
-            console.log(response.json());
-              return response.json();
-            } else {
-              throw new Error('Something went wrong ...');
-            }
-          })
-          .then(data => this.setState({ currentIp: data.IPv4, currentCountryCode:data.country_code }))
-          .catch(error => this.setState({ error }));
-    }*/
     async handleSubmit(event) {
-        event.preventDefault();
         console.log(this.state)
-        if(this.state.correctEmail==false && this.state.showContactMessage==true && this.state.correctContact==false){
+        if(this.state.correctEmail===false && this.state.showContactMessage===true && this.state.correctContact===false){
             alert('Please enter correct email and contact no. for the enquiry')
         }
-        else if (this.state.correctEmail==false){
+        else if (this.state.correctEmail===false){
             alert('Please enter correct mail for enquiry');
         }
-        else if (this.state.showContactMessage==true && this.state.correctContact==false){
+        else if (this.state.showContactMessage===true && this.state.correctContact===false){
             alert('Please enter correct contact no. for the enquiry');
         }
         else{
-            await axios.post(
-            'https://zfjqjfmdki.execute-api.us-east-2.amazonaws.com/default/sendEnquiryFunction-Py',
-            {   name: this.state.name,
-                contact: this.state.contact,
-                email: this.state.email,
-                address: this.state.address,
-                message: this.state.enquiryMessage
-            }
-            );
+            alert('sending enquiry!')
+            fetch(process.env.REACT_APP_ENQUIRY_API,
+            {
+            method: "POST",
+            body: JSON.stringify( { name: this.state.name, address: this.state.address, contact: this.state.contact, email:this.state.email, message:this.state.enquiryMessage } )
+            })
+        .then( res=>res.json()).then(res=> {
+            //display message however you wish
+            alert(res.body);
+        });
         }
+        event.preventDefault();
     }
     handleEmailChange(event){
         let emailRegex=/^[^\s@]+@[^\s@]+\.[^\s@]+$/
-        this.setState({correctEmail: emailRegex.test(event.target.value),showEmailMessage:true,email: event.target.value});
+        this.setState({validEmail: emailRegex.test(event.target.value),showEmailMessage:true,email: event.target.value});
 
     }
      render() {
@@ -119,7 +106,7 @@ export default class Home extends React.Component {
                         </div>
                         <div class="col-75">
                             <input type="text" id="email" placeholder="Your email id.." onChange={this.handleEmailChange} required />
-                            {this.state.showEmailMessage ? this.state.correctEmail ? <span id="valid-msg">✓ Valid</span> : <span id="invalid-msg">Invalid Email</span> : null}         
+                            {this.state.showEmailMessage ? this.state.validEmail ? <span id="valid-msg">✓ Valid</span> : <span id="invalid-msg">Invalid Email</span> : null}         
 
                         </div>
                     </div>
