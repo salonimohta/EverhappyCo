@@ -3,7 +3,7 @@ import './index.css';
 import { Tab, Tabs, TabList, TabPanel } from 'react-tabs';
 import 'react-tabs/style/react-tabs.css';
 
-export default class Product extends React.Component {
+export default class ProductDetail extends React.Component {
      render() {
          return (
              <div className="productBox">

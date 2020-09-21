@@ -28,7 +28,7 @@ import Teflon from './ProductCategory/teflon';
 import Transformer from './ProductCategory/transformer';
 import VarnishThiner from './ProductCategory/varnish';
 import WiresTapes from './ProductCategory/wires-tapes';
-import Product from './Product'
+import ProductDetail from './ProductDetail'
 import productDetails from './productDetails-json';
 import SearchResult from './SearchResult';
 
@@ -63,7 +63,7 @@ const routing = (
         <Route path="/varnish" component={VarnishThiner} />
         <Route path="/wires-tapes" component={WiresTapes} />
         {productDetails.map((pro)=>{
-          return <Route path={`/product/${pro.productCategory}-${pro.productName}`} component={()=><Product aboutProduct={pro} />} />
+          return <Route path={`/product/${pro.productCategory}-${pro.productName}`} component={()=><ProductDetail aboutProduct={pro} />} />
         })}
         <Route path="/searchResults" component={SearchResult} />
         </Switch>
