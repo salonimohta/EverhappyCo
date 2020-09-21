@@ -1,8 +1,6 @@
 .topnav {
     overflow: hidden;
     background-color: #46C6E0;
-    text-transform:uppercase;
-  
   }
   
   .topnav a {
@@ -11,28 +9,31 @@
     padding: 2.24vh 2.56vh;
     text-decoration: none;
     font-size: 3vh;
+    border-bottom: 3px solid transparent;
   }
   
   .topnav a:hover {
     color: black;
+    border-bottom: 3px solid blue;
   }
-  
+
   
   .topnav a.active {
-    background-color: #4CAF50;
     color: white;
+    border-bottom: 3px solid blue;
   }
 
   .dropdownMenu{
     position: absolute;
     overflow: hidden;
-    width: 600px;
+    width: auto;
     display:flex;
     background-color: #46C6E0;
     flex-direction: row;
     justify-content: flex-start;
-    margin-left: 230px;
+    margin-left: 14vh;
     z-index: 10;
+    height: 230px;
   }
 
   .dropdownMenu a {
@@ -48,7 +49,8 @@
 
   .dropdownSection{
     margin-top: 5px;
-    margin-left: 30px;
+    margin-left: 20px;
     display: flex;
     flex-direction: column;
+    justify-content: space-evenly;
   }

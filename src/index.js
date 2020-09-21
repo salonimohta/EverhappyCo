@@ -30,6 +30,7 @@ import VarnishThiner from './ProductCategory/varnish';
 import WiresTapes from './ProductCategory/wires-tapes';
 import ProductDetail from './ProductDetail'
 import productDetails from './productDetails-json';
+import Product from './Product';
 import SearchResult from './SearchResult';
 
 const routing = (
@@ -38,6 +39,7 @@ const routing = (
         <Switch>
         <Route exact path="/" component={Home} />
         <Route path="/aboutus" component={AboutUs} />
+        <Route path="/productCategories" component={Product} />
         <Route path="/brands" component={Brands} />
         <Route path="/articles" component={Articles} />
         <Route path="/contactus" component={ContactUs} />

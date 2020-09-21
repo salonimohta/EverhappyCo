@@ -49,15 +49,17 @@ export default class Navbar extends React.Component{
                     <Link to="/cable-joint">Cable jointing compound and kit</Link>
                     <Link to="/Cu-Al">Copper and Aluminium</Link>
                     <Link to="/furnace">Furnace Materials</Link>
+                  </div>
+                  <div className="dropdownSection">
                     <Link to="/glass-fibre">Glass Fibre ( Polyester and Epoxy)</Link>
                     <Link to="/kapton">Kapton</Link>
                     <Link to="/mica">Mica (Silicon bonded paper mica)</Link>
-                  </div>
-                  <div className="dropdownSection">
                     <Link to="/nomex">Nomex</Link>
                     <Link to="/nylon">Nylon</Link>
                     <Link to="/polyester">Polyester</Link>
                     <Link to="/polypropylene">Polypropylene</Link>
+                  </div>
+                  <div className="dropdownSection">
                     <Link to="/pvc">PVC</Link>
                     <Link to="/sindhaino">Sindhaino</Link>
                     <Link to="/teflon">Teflon</Link>
