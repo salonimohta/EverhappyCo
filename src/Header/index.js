@@ -20,7 +20,8 @@ export default class Header extends React.Component{
 					<div className="L2">Deals in: Electrical Insulating Materials</div>
 					</div>
 					</div>
-					<div className="flex-container3" style={{'padding-left': '20%'}}>
+					<br/>
+					<div className="flex-container3" style={{'padding-left': '10%'}}>
 					<Search />
 					</div>
 			</div>

@@ -39,15 +39,12 @@
 
 @media all and (max-width: 830px) {
   .selectSearch{
-    width: 150px;
+    width: 200px;
   }
   .searchButton{
     margin-left: 5px;
     border-radius: 4px;
-    height: 38px;
+    height: 40px;
     width: 50px;
-  }
-  .searchBar{
-    height: 30px;
   }
 }

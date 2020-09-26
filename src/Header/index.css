@@ -42,13 +42,13 @@
 
 @media all and (max-width: 830px) {
     .LogoImg{
-        height: 15vh;
+        height: 10vh;
     }
     .L1{
-        font-size: 4vh;
+        font-size: 3vh;
     }
     .L2{
-        font-size: 3vh;
+        font-size: 2vh;
     }
     .flex-container1{
         display: flex;
