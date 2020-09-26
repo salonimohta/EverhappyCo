@@ -18,3 +18,13 @@
 .productTitle{
     text-align: center;
 }
+@media all and (max-width: 700px){
+.carouselContainerProduct{
+    margin-left: 20px;
+    margin-right: 20px;
+}
+.carousel .thumb img {
+    width: 100% !important;
+    height: 50px !important;
+}
+}
