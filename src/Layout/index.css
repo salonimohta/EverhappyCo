@@ -1,23 +1,15 @@
-.imageSpeaker{
-    margin:2vh 2vw 2vh 2vw; 
-    padding:1vh;
-    float:left;
-
-}
-
-
-.contentSpeaker{
-   font-size:3vh;
-   padding:0.5vh 0vw 0vh 1vw;
-
-}
-
 .parent {
-display: flex;
-flex-direction: column;
-height:100vh;
+    display: flex;
+    flex-direction: column;
 }
 
 .grow {
 flex: 1 0 auto;
+}
+
+@media all and (max-width: 700px) {
+    .parent {
+        width:100%;
+    }
+
 }

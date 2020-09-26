@@ -54,3 +54,11 @@ Button{
 .productCategoryTitle{
     margin-left: 30px;
 }
+
+@media all and (max-width: 700px) {
+    .categoryFlex{
+        display:flex;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+}

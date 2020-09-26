@@ -35,5 +35,19 @@
     width: 300px;
     border: none;
     border-radius: 4px;
-    height: 40px;
   }
+
+@media all and (max-width: 830px) {
+  .selectSearch{
+    width: 150px;
+  }
+  .searchButton{
+    margin-left: 5px;
+    border-radius: 4px;
+    height: 38px;
+    width: 50px;
+  }
+  .searchBar{
+    height: 30px;
+  }
+}

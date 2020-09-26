@@ -10,23 +10,19 @@ const {children} = this.props;
         return(
 			<div className="parent">
                 <div>
-			<Navbar/>
-            <Header/> 
-            </div>
-<div>
+			    <Navbar/>
+                <Header/> 
+                </div>
+                <div>
 
 			 {
                  children
              }
              <br/>
-</div>
-
-             <div className="grow"/>
- 
+                </div>
+           {/* <div className="grow" />*/} 
              <Footer />
-
-     
-			</div>
+            </div>
 		)
 	}
 

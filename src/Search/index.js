@@ -123,7 +123,8 @@ class Search extends React.Component{
                     placeholder="Search for products.." 
                     options={searchList} 
                     components={{DropdownIndicator}} 
-                    noOptionsMessage={()=>null} />
+                    noOptionsMessage={()=>null} 
+                    classNamePrefix="mySelect" />
                 </div>
                 <div>
                 <Button className="searchButton" onClick={this.handleClick.bind(this)}>Search</Button>
