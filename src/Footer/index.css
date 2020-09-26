@@ -1,10 +1,17 @@
 .bodyFooter{
     background-color: #46C6E0;
-    
     padding: 2.5vh 0vh 2.5vh 3.0vh;
     font-size: 2.5vh;
 }
 
 .material-icons{
     font-size: 2.5vh;
+}
+
+@media all and (max-width: 700px){
+    .bodyFooter{
+        background-color: #46C6E0;
+        padding: 2vh 0vh 2vh 1vh;
+        font-size: 2vh;
+    }
 }
