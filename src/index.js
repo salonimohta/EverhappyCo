@@ -37,7 +37,7 @@ const routing = (
   <Router>
   <Layout>
         <Switch>
-        <Route exact path="/" component={Home} />
+        <Route exact path="/EverhappyCo" component={Home} />
         <Route path="/aboutus" component={AboutUs} />
         <Route path="/productCategories" component={Product} />
         <Route path="/brands" component={Brands} />
