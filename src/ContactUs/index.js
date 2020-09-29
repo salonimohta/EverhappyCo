@@ -17,14 +17,31 @@ export default class Home extends React.Component {
             address: "NA",
             contact: "NA",
             email: null,
-            enquiryMessage: null
+            validName: false,
+            enquiryMessage: null,
+            showNameMessage:false
         };
         this.handleEmailChange=this.handleEmailChange.bind(this);
         this.handleSubmit=this.handleSubmit.bind(this);
+        this.checkName=this.checkName.bind(this);
+    }
+    checkName(event){
+        let temp="";
+        let name=event.target.value;
+        for(var i=0;i<name.length;i++){
+            if (name[i]!==' ') temp+=name[i];
+        } 
+        if (temp.length>2){
+            this.setState({validName:true,name:event.target.value,showNameMessage:true});
+        }
+        else this.setState({validName:false,showNameMessage:true})
     }
     async handleSubmit(event) {
         console.log(this.state)
-        if(this.state.correctEmail===false && this.state.showContactMessage===true && this.state.correctContact===false){
+        if (this.state.validName===false){
+            alert('Please enter name of atleast 3 or more alphabets!');
+        }
+        else if(this.state.correctEmail===false && this.state.showContactMessage===true && this.state.correctContact===false){
             alert('Please enter correct email and contact no. for the enquiry')
         }
         else if (this.state.correctEmail===false){
@@ -65,7 +82,7 @@ export default class Home extends React.Component {
                     Ashok Kumar Mohta (9830837581)</h4>
                     <h4><b>Email: </b>everhappycommercial@yahoo.co.in</h4>
                  </div>
-                 <div>
+                 <div class="enquiryForm">
                  <h3><b>Please fill out the form for an enquiry about a product!</b></h3>
                  <h4><span style={{color:"red"}}>Fields marked with * are required</span></h4>
                  <div class="container">
@@ -75,7 +92,9 @@ export default class Home extends React.Component {
                             <label>Name<span style={{color:"red"}}>*</span></label>
                         </div>
                         <div class="col-75">
-                            <input type="text" id="name" placeholder="Your name.." onChange={(e)=>this.setState({name: e.target.value})} required />
+                            <input type="text" id="name" placeholder="Your name.." onChange={this.checkName} required />
+                            {/*<span id="invalid msg">Enter name containing atleast 3 alphabets</span><br/>
+                            {this.state.showNameMessage ? this.state.validName ? <span id="valid-msg">✓ Valid</span>s : <span id="invalid-msg">Invalid Name</span> : null}     */}    
                         </div>
                     </div>
                     <div class="row">
