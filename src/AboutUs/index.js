@@ -6,7 +6,7 @@ export default class Home extends React.Component {
      render() {
          return (
              <div class="aboutUsStyle">
-                 <p>Everhappy Commercial Corporation is a family run business conglomerate with a business history of more than 75 years with impeccable reputation of fair business dealings with all the stakeholders involved.</p>
+                 <p>Everhappy Commercial Corporation is a family run business conglomerate with a business history of more than 50 years with impeccable reputation of fair business dealings with all the stakeholders involved.</p>
                 
                 <p>ECC has traveled a long way to reach the scaling heights of success. Processing the ability to dream, the sprit to explore new opportunities and face new challenges the group made its dream a reality taking their ventures to greater heights.</p>
                 
