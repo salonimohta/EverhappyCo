@@ -5,7 +5,7 @@ export default class Home extends React.Component {
      render() {
          return (
            <div>
-             <h2 class="brandPageTitle">Top Brands We Sell</h2>
+             <h2 class="brandPageTitle">The Brands We Sell</h2>
              <div class="brandCardPage">
               <div class="brandCards">
                   <div class="brandCardBox">
