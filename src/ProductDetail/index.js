@@ -21,13 +21,13 @@ export default class ProductDetail extends React.Component {
                 <TabPanel>
                     <h4>Name: {this.props.aboutProduct.productName.replace('_',' ')} </h4>
                     <h4>Category: {this.props.aboutProduct.productCategory.replace('_',' ')}</h4>
-                    <h4>Specification: {this.props.aboutProduct.productSpecification}</h4>
+                    <h4>Specification: {this.props.aboutProduct.productSpecification ? this.props.aboutProduct.productSpecification : "To be Added"}</h4>
                 </TabPanel>
                 <TabPanel>
-                    <h4>Description: {this.props.aboutProduct.productDescription}</h4>
+                    <h4>Description: {this.props.aboutProduct.productDescription ? this.props.aboutProduct.productDescription : "To be Added"}</h4>
                 </TabPanel>
                 <TabPanel>
-                    <h4>Features: {this.props.aboutProduct.Features}</h4>
+                    <h4>Features: {this.props.aboutProduct.Features ? this.props.aboutProduct.Features : "To be Added"}</h4>
                 </TabPanel>
                 </div>
             </div>
