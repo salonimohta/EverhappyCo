@@ -1,6 +1,7 @@
 .parent {
     display: flex;
     flex-direction: column;
+    font-family: Helvetica,Arial, sans-serif;
 }
 
 .grow {
