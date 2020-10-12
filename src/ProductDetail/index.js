@@ -19,15 +19,15 @@ export default class ProductDetail extends React.Component {
                 </div>
                 <div className="productContent">
                 <TabPanel>
-                    <h4>Name: {this.props.aboutProduct.productName.replace(/_/g,' ')} </h4>
-                    <h4>Category: {this.props.aboutProduct.productCategory.replace(/_/g,' ')}</h4>
-                    <h4>Specification: {this.props.aboutProduct.productSpecification ? this.props.aboutProduct.productSpecification : "To be Added"}</h4>
+                    <h4><span className="productLabel">Name:</span> {this.props.aboutProduct.productName.replace(/_/g,' ')} </h4>
+                    <h4><span className="productLabel">Category:</span> {this.props.aboutProduct.productCategory.replace(/_/g,' ')}</h4>
+                    <h4><span className="productLabel">Specification:</span> {this.props.aboutProduct.productSpecification ? this.props.aboutProduct.productSpecification : "To be Added"}</h4>
                 </TabPanel>
                 <TabPanel>
-                    <h4>Description: {this.props.aboutProduct.productDescription ? this.props.aboutProduct.productDescription : "To be Added"}</h4>
+                    <h4><span className="productLabel">Description:</span> {this.props.aboutProduct.productDescription ? this.props.aboutProduct.productDescription : "To be Added"}</h4>
                 </TabPanel>
                 <TabPanel>
-                    <h4>Features: {this.props.aboutProduct.Features ? this.props.aboutProduct.Features : "To be Added"}</h4>
+                    <h4><span className="productLabel">Features:</span> {this.props.aboutProduct.Features ? this.props.aboutProduct.Features : "To be Added"}</h4>
                 </TabPanel>
                 </div>
             </div>

@@ -17,3 +17,7 @@
 .productContent{
     padding: 20px;
 }
+
+.productLabel{
+    color: red;
+}
