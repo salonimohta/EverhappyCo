@@ -65,7 +65,7 @@ const routing = (
         <Route path="/varnish" component={VarnishThiner} />
         <Route path="/wires-tapes" component={WiresTapes} />
         {productDetails.map((pro)=>{
-          return <Route path={`/product/${pro.productCategory}-${pro.productName}`} component={()=><ProductDetail aboutProduct={pro} />} />
+          return <Route path={`/product/${pro.productCategory}-${pro.productName.replace(/\|/g,'_')}`} component={()=><ProductDetail aboutProduct={pro} />} />
         })}
         <Route path="/searchResults" component={SearchResult} />
         </Switch>
