@@ -77,7 +77,7 @@ const ProductCategory = () => {
                 <Button variant="light" onClick={()=>redirectUrl('/wires-tapes')}>Wires and Tapes</Button>
                 </div>
                 <div>
-                <Button variant="light" onClick={()=>redirectUrl('/other-major-products')}>Other Major Products</Button>
+                <Button variant="light" onClick={()=>redirectUrl('/Other_Major_Products')}>Other Major Products</Button>
                 </div>
                 
                 

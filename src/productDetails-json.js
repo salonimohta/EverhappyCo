@@ -130,7 +130,7 @@ const productDetails=[
          'Mica paper tube is a hard pipe insulating material prepared by using mica paper with silicon binder. It can withstand temperatures ranging from 130A A A A C to 1000A A A A C for high voltage applications. We manufacture high temperature mica tubes in square,round, oval or rectangular shapes. They are available in length between 5mm and 1000mm (0.19A AcA A A A and 40A AcA A A A ) and an inner diameter between 3mm and 300mm (0.12A AcA A A A and 12A AcA A A A ). We can manufacture mica tubes of customer specifications based on the clientA AcA A A A s requirements.\r\n\r\nApplication: electric motor, electric appliances and resistors.\r\nAvailable: with wrapped on SS threaded rods' },
       { productId: 16,
         productCategory: 'Mica',
-        productName: 'Washer ',
+        productName: 'Washer',
         imageURL:
          'https://5.imimg.com/data5/UX/LK/MY-649186/silicon-bonded-mica-tube-500x500.jpg',
         productSpecification:
@@ -220,7 +220,7 @@ const productDetails=[
          'Interwoven from dust free asbestos warp and weft yarns, it is used as thermal insulating materials for boilers and pipe lines etc. Metallic wire reinforced on request. \r\n\r\nTemp.: ≤550℃\r\n\r\nWidth: 20mm~200mm\r\n\r\nThickness:1.5mm~5.0mm\r\n\r\nPacking: 25m or 30m/roll, In plastic woven bag of 50kg net each' },
       { productId: 28,
         productCategory: 'Asbestos',
-        productName: 'Champion_Sheet ',
+        productName: 'Champion_Sheet',
         imageURL:
          'https://4.imimg.com/data4/LK/HE/MY-1424085/image-500x500.jpg',
         productSpecification:
@@ -893,7 +893,7 @@ const productDetails=[
     productSpecification: 'Category Name: ELECTRICAL INSULATING MATERIAL Brand : Roja',
     productId: 106 },
   { productCategory: 'Other_Major_Products',
-    productName: 'Cotton_Tape ',
+    productName: 'Cotton_Tape',
     imageURL:
      'https://tiimg.tistatic.com/fp/1/005/122/lotus-brand-white-cotton-tape-758.jpg',
     productSpecification:
@@ -990,7 +990,7 @@ const productDetails=[
      'Material: 1.2mm mild steel.\r\nBody: Folded and seam welded. Four 8.5mm diameter holes for wall fixing. Supports for DIN-rails/Mounting plate.\r\nGasket: Sealing is ensured by an extruded one piece polyurethane gasket.\r\nEarthing: Earthing studs M8x12mm in body and cover, M8 nuts, earth washers, and earth labels.\r\nProtection: Complies with IP66, IK10.\r\nFinish: RAL7035, structure powder coating.\r\nDelivery: Base, cover, cover screws, fixing screws, cover plugs, and earthing facilities.\r\n\r\nHeight:        150-400\r\nWidth:        150-800\r\nDepth:        80-120',
     productId: 118 },
   { productCategory: 'Other_Major_Products',
-    productName: 'Ferrule_Printing_Tubes ',
+    productName: 'Ferrule_Printing_Tubes',
     imageURL:
      'https://5.imimg.com/data5/PE/AI/BR/SELLER-71050538/ferrule-printing-tube-500x500.jpg',
     productSpecification:

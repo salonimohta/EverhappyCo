@@ -14,7 +14,7 @@ export default class CopperAluminium extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/SM/ED/MY-2774511/copper-sheet-500x500.png' alt='' />
-                    <Link to="/product/Copper_and_Aluminium-Rod|Sheet">Rod/Sheet</Link>
+                    <Link to="/product/Copper_and_Aluminium-Rod_Sheet">Rod/Sheet</Link>
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://in.element14.com/productimages/standard/en_GB/42246673.jpg' alt='' />

@@ -66,7 +66,7 @@ export default class Navbar extends React.Component{
                     <Link to="/transformer">Transformer Materials</Link>
                     <Link to="/varnish">Varnish and Thiner</Link>
                     <Link to="/wires-tapes">Wires and Tapes</Link>
-                    <Link to="other-major-products">Other Major Products</Link>
+                    <Link to="/Other_Major_Products">Other Major Products</Link>
                   </div>
                 </div>
             )

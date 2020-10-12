@@ -14,11 +14,11 @@ export default class Bakelite extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/PV/AI/MY-988749/bakelite-tube-250x250.jpg' alt='' />
-                    <Link to="/product/Acrylic-Tube">Tube</Link>
+                    <Link to="/product/Bakelite-Tube">Tube</Link>
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='http://www.industrialproductssupplier.com/wp-content/uploads/2016/05/Bakelite-Hylam-Fabric-base-sheet.jpg' alt='' />
-                    <Link to="/product/Acrylic-Cloth_Fiber_Sheet">Cloth Fiber Sheet</Link>
+                    <Link to="/product/Bakelite-Cloth_Fiber_Sheet">Cloth Fiber Sheet</Link>
                 </div>
             </div>
             </div>

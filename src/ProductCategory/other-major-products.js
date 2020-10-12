@@ -74,7 +74,7 @@ export default class OtherMajorProducts extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/OO/HA/MY-6727951/bimetallic-cable-lugs-500x500.jpg' alt='' />
-                    <Link to="/product/Other_Major_Products-Bimetallic_Lugs">Bimatellic Lugs</Link>
+                    <Link to="/product/Other_Major_Products-Bimatellic_Lugs">Bimatellic Lugs</Link>
                 </div>
             </div>
             <br/>
@@ -109,7 +109,7 @@ export default class OtherMajorProducts extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/PD/OB/XX/GLADMIN-36189296/loctite-500x500.jpg' alt='' />
-                    <Link to="/product/Other_Major_Products-Loctite_All_Products">Locktite - All Products</Link>
+                    <Link to="/product/Other_Major_Products-Locktite_All_Products">Locktite - All Products</Link>
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/BR/CD/BO/SELLER-81315843/rubber-tape-500x500.jpg' alt='' />
@@ -121,7 +121,7 @@ export default class OtherMajorProducts extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/GW/MS/WI/SELLER-9797329/dowells-cable-glands-500x500.jpg' alt='' />
-                    <Link to="/product/Other_Major_Products-Gland_Aluminium_Copper">Gland (Aluminium/Copper)</Link>
+                    <Link to="/product/Other_Major_Products-Gland-Aluminium_Copper">Gland (Aluminium/Copper)</Link>
                 </div>
             </div>
             <br/>
@@ -129,7 +129,7 @@ export default class OtherMajorProducts extends React.Component {
                 
                 <div class="productCardBox">
                     <img id="cardImg" src='https://3.imimg.com/data3/LL/AH/MY-48310/ss-wire-rod-ss-wire-250x250.jpg' alt='' />
-                    <Link to="/product/Other_Major_Products-Ss_Wire_Sheet_Nut_Bolt">Ss Wire/ Sheet/ Nut-Bolt</Link>
+                    <Link to="/product/Other_Major_Products-Ss_Wire_Sheet_Nut-Bolt">Ss Wire/ Sheet/ Nut-Bolt</Link>
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/EG/RJ/MY-10923244/ss-304-sheet-500x500.jpg' alt='' />
@@ -137,7 +137,7 @@ export default class OtherMajorProducts extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/SL/WC/MY-2065175/aluminum-ladder-type-cable-tray-500x500.jpg' alt='' />
-                    <Link to="/product/Other_Major_Products-Gi_Strip_Wire_Nut_Bolt_Sheet_Cable_Tray_Ladder">Gi Strip/ Wire/ Nut-Bolt/ Sheet/ Cable Tray-Ladder</Link>
+                    <Link to="/product/Other_Major_Products-Gi_Strip_Wire_Nut-Bolt_Sheet_Cable_Tray_Ladder">Gi Strip/ Wire/ Nut-Bolt/ Sheet/ Cable Tray-Ladder</Link>
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://cpimg.tistatic.com/05339299/b/4/GI-Perforated-Cable-Tray.jpg' alt='' />

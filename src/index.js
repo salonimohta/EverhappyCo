@@ -55,7 +55,7 @@ const routing = (
         <Route path="/mica" component={Mica} />
         <Route path="/nomex" component={Nomex} />
         <Route path="/nylon" component={Nylon} />
-        <Route path="/other-major-products" component={OtherMajorProducts} />
+        <Route path="/Other_Major_Products" component={OtherMajorProducts} />
         <Route path="/polyester" component={Polyester} />
         <Route path="/polypropylene" component={Polypropylene} />
         <Route path="/pvc" component={PVC} />

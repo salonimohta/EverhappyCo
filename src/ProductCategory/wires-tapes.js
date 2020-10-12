@@ -42,7 +42,7 @@ export default class WiresTapes extends React.Component {
                 </div>
                 <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/DG/TJ/CU/SELLER-75930225/masking-tape-500x500.jpg' alt='' />
-                    <Link to="/product/Wires_and_Tapes-Masking_Tape|Tissue_Tape|Floor_Marking_Tape|Self_Flushing_Tape|Foam_Tape|Gasket_Tape">Masking Tape/ Tissue Tape/ Floor Marking Tape/ Self Flushing Tape/ Foam Tape/ Gasket Tape</Link>
+                    <Link to="/product/Wires_and_Tapes-Masking_Tape_Tissue_Tape_Floor_Marking_Tape_Self_Flushing_Tape_Foam_Tape_Gasket_Tape">Masking Tape/ Tissue Tape/ Floor Marking Tape/ Self Flushing Tape/ Foam Tape/ Gasket Tape</Link>
                 </div>
             <div class="productCardBox">
                     <img id="cardImg" src='https://5.imimg.com/data5/XK/FW/MY-62697677/aluminium-foil-tape-500x500.jpg' alt='' />
