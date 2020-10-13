@@ -9,7 +9,7 @@ export default class ProductCarousel extends React.Component{
             <div>
                 <h2 class="productTitle">Top Products at Everhappy Commercial Corporation</h2>
             <div class="carouselContainerProduct">
-    <Carousel autoPlay infiniteLoop={true} stopOnHover={true}>
+    <Carousel autoPlay infiniteLoop={true} stopOnHover={true} showArrows={false}>
         <div>
             <img alt="" src="https://3.imimg.com/data3/FA/XY/MY-4993915/insulating-varnish-500x500.jpg"/>
             <p className="legend">Dr. Beck Varnish</p>

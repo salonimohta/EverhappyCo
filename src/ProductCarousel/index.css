@@ -5,8 +5,11 @@
 
 .carousel .slide{ background: #e6f2ff!important; }
 
+
+
 .carousel .slide .legend{
     bottom:20px;
+    font-size: 14px;
 }
 
 .carousel .thumb img {

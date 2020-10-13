@@ -9,7 +9,7 @@ export default class BrandCarousel extends React.Component{
             <div>
                 <h2 class="brandTitle">Top Brands sold</h2>
             <div class="carouselContainer">
-    <Carousel autoPlay showThumbs={false} showStatus={false} className="brand" infiniteLoop={true} stopOnHover={true}>
+    <Carousel autoPlay showThumbs={false} showStatus={false} className="brand" infiniteLoop={true} stopOnHover={true} showArrows={false}>
         <div>
             <img alt="logo_slide1" src={require('./logo1.png')}/>
         </div>
