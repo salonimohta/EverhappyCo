@@ -10,6 +10,11 @@
     height: 60px !important;
 }
 
+.carousel .carousel-status{
+    font-size: 15px;
+    color: black;
+}
+
 .carousel .slide img {
     max-height: 300px; 
     width: auto;
