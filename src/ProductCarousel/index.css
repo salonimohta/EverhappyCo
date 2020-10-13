@@ -5,9 +5,17 @@
 
 .carousel .slide{ background: #e6f2ff!important; }
 
+.carousel .slide .legend{
+    bottom:20px;
+}
+
 .carousel .thumb img {
     width: 100% !important;
     height: 60px !important;
+}
+
+.carousel .control-dots .dot{
+    background: black;
 }
 
 .carousel .carousel-status{
