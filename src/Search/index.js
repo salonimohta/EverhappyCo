@@ -15,6 +15,7 @@ const searchList=productDetails.map(product=>{
     }
 });
 
+
 class Search extends React.Component{
     constructor(){
         super();
@@ -116,15 +117,16 @@ class Search extends React.Component{
             <div className="searchBar">
                 <div className="selectSearch">
                 <Select id="keywordValue" 
+                    components={{DropdownIndicator}}
                     onInputChange={this.handleInputChange} 
                     onChange={(selectedOption)=>{this.redirectToOption(selectedOption)}} 
                     onBlur={this.hideMenu} 
                     menuIsOpen={this.state.openMenu} 
                     placeholder="Search for products.." 
                     options={searchList} 
-                    components={{DropdownIndicator}} 
                     noOptionsMessage={()=>null} 
-                    classNamePrefix="mySelect" />
+                    classNamePrefix="mySelect"
+                    controlShouldRenderValue={false} />
                 </div>
                 <div>
                 <Button className="searchButton" onClick={this.handleClick.bind(this)}>Search</Button>
