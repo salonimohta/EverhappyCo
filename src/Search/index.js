@@ -90,6 +90,7 @@ class Search extends React.Component{
             }
         }
     }
+    
     handleInputChange = (query, { action }) => {
         if (action === "input-change" && query.length>0) {
             this.setState({ openMenu: true,search: query });
@@ -113,6 +114,33 @@ class Search extends React.Component{
               </components.DropdownIndicator>
             );
           };
+          /*const customStyles ={
+                control: (provided, state) => ({
+                    ...provided,
+                    background: '#fff',
+                    borderColor: '#9e9e9e',
+                    minHeight: '30px',
+                    height: '38px',
+                    boxShadow: state.isFocused ? null : null,
+                  }),
+                  valueContainer: (provided, state) => ({
+                    ...provided,
+                    height: '30px',
+                    padding: '0 6px'
+                  }),
+              
+                  input: (provided, state) => ({
+                    ...provided,
+                    margin: '0px',
+                  }),
+                  indicatorSeparator: state => ({
+                    display: 'none',
+                  }),
+                  indicatorsContainer: (provided, state) => ({
+                    ...provided,
+                    height: '30px',
+                  })
+                };*/
             return(
             <div className="searchBar">
                 <div className="selectSearch">
@@ -125,8 +153,8 @@ class Search extends React.Component{
                     placeholder="Search for products.." 
                     options={searchList} 
                     noOptionsMessage={()=>null} 
-                    classNamePrefix="mySelect"
-                    controlShouldRenderValue={false} />
+                    controlShouldRenderValue={false}
+                    classNamePrefix="mySelect" />
                 </div>
                 <div>
                 <Button className="searchButton" onClick={this.handleClick.bind(this)}>Search</Button>
