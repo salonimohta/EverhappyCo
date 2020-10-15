@@ -102,7 +102,7 @@ class Search extends React.Component{
         this.setState({openMenu:false});
         const {history} = this.props;
         let product=productDetails.find(productObj=>productObj.productId===selectedOptionValue.value);
-        let redirectUrl='../product/'+product.productCategory+'-'+product.productName;
+        let redirectUrl='../product/'+product.productCategory+'-'+product.productName.replace(/\|/g,'_');
         history.push(redirectUrl);
     }
     render(){
